@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SocialMedia.Core.Application1\SocialMedia.Core.Application1.csproj" />
+    <ProjectReference Include="..\SocialMedia.Core.Domain\SocialMedia.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
